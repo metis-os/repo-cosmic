@@ -1,5 +1,6 @@
 # metis-cosmic
-System files packages for @metis-os
+
+***Extra pkgfiles // packages for @metis-os***
 
 Setup:
 
@@ -12,5 +13,10 @@ Include = /etc/pacman.d/metis-cosmic
 and add the server adress to `/etc/pacman.d/metis-cosmic`
 
 ```
-Server = https://metis-os.github.io/metis-cosmic/$repo/os/$arch
+# main
+Server = https://metis-os.github.io/repo-cosmic/$repo/os/$arch
+
+# subdomain
+Server = https://repo-cosmic.metislinux.org/$repo/os/$arch
 ```
+
